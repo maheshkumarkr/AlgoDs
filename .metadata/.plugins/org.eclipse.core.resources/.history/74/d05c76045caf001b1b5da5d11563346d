@@ -1,0 +1,26 @@
+
+public class PythoTriplet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	static boolean getTriplet(int[] arr, int N){
+	    for(int i=N-1;i>=2;i--){
+		        int j=0;
+                int k=i-1;
+                while(j<k)
+                {
+                    if(arr[j]+arr[k] == arr[i])
+                    {
+                        return true;
+                    }
+                    else if(arr[j]+arr[k] < arr[i])
+                        j++;
+                    else
+                        k--;
+                }
+		  }
+		  return false;
+	}
+}
