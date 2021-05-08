@@ -1,3 +1,4 @@
+package com.arrays;
 
 public class ZigZag {
 

@@ -1,3 +1,4 @@
+package com.arrays;
 
 public class LastIndexOf1 {
 	public static void main(String args[]) {

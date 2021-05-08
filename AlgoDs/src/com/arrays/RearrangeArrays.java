@@ -1,3 +1,4 @@
+package com.arrays;
 
 public class RearrangeArrays {
 	public static void main(String[] args) {

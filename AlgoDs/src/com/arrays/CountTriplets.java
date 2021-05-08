@@ -1,3 +1,4 @@
+package com.arrays;
 //Initial Template for Java
 
 import java.io.*;
