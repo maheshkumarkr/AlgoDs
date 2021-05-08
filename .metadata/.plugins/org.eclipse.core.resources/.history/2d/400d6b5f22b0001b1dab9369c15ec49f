@@ -1,0 +1,16 @@
+package com.string;
+
+import java.util.LinkedHashSet;
+
+public class RemoveDuplicate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String S = "zvvo";
+		System.out.println(removeDups(S));
+	}
+	static String removeDups(String S) {
+        // code here
+        LinkedHashSet<Character> noDuplicateSet = new LinkedHashSet<>();
+    }
+}

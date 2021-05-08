@@ -1,0 +1,21 @@
+package com.string;
+
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+
+public class RemoveDuplicate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String S = "zvvo";
+		System.out.println(removeDups(S));
+	}
+	static String removeDups(String S) {
+        // code here
+		StringBuilder result = new StringBuilder("");
+        LinkedHashMap<Character,Integer> noDuplicateMap = new LinkedHashMap<>();
+        for(int i = 0; i < S.length(); i++){
+        	
+        }
+    }
+}
