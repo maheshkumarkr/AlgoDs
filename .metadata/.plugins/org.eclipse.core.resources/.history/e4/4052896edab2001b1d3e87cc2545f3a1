@@ -19,7 +19,7 @@ public class ImplementAtoi {
 	                negativeNum = true;
 	                continue;
 	            }
-	            result += str.charAt(i) - '0';
+	            result += Integer.parseInt(str.charAt(i)+"");
 	            result *= 10;
 	        } catch (Exception e) {
 	            return -1;
